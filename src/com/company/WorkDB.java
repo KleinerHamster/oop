@@ -40,7 +40,7 @@ public class WorkDB implements IMethods{//класс для работы с БД
             System.out.println("Connecting to the database");
 
             Connection connection=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/dataoop","root","victoria"
+                    "jdbc:mysql://localhost:3306/data***","user_name","password"
             );
             System.out.println("You are now connected to the database");
 
